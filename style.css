@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titleContainer
+{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%;
+}
+.title
+{   
+    position: absolute;
+    right:20%;
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    color: wheat;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: .15em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+
+}
+.logo
+{   
+    background-image: url(image/logo1.png);
+    padding-left: 4px;
+    width:200px;
+    height:200px;
+}
+.tabContainer
+{   
+
+    width: 100%;  
+}
+.tabContainer .buttonContainer
+{ 
+    display: flex;
+    justify-content:left;
+}
+.tabContainer .buttonContainer button
+{ 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .30em;
+    font-size: 15px;
+    color:#8EE79B;
+    padding: 10px;   
+    transition-duration: 0.4s;
+    background-color:transparent;
+
+
+
+}
+.tabContainer .buttonContainer button:hover
+{
+
+background-color:rgb(247, 113, 108);
+}
+.tabContainer .tabPanelContainer
+{   
+    justify-content:center;
+    height: 85%;
+    border: 3px solid rgb(61,234,86);
+    background: rgba(61,234,86,0.2);
+    color:#f6a498;
+ 
+}
+.tabContainer .tabPanelContainer .tabPanel
+{
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Orbitron",sans-serif;
+    letter-spacing: 0.15em;
+}
+.tabContainer .tabPanelContainer .tabPanel .tabsub
+{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.equipmentContainer 
+{
+    width:100%;
+    height: 300px;
+}
+.equipmentContainer .equipmentTitle
+{
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 15px;
+    background-color: rgba(236, 232, 124, 0.897);
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+.equipmentContainer .equipmentTabContainer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(145, 247, 150, 0.795) ;
+    height: 85%;
+    border: 3px solid rgb(66, 17, 164);
+    
+}
+.light
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.fan
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.TV
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+img.light_on {
+    width: 200px;
+    height: 200px;
+}
+img.light_off {
+    width: 200px;
+    height: 200px;
+}
+img.fan_on {
+    width: 200px;
+    height: 200px;
+}
+img.fan_off {
+    width: 200px;
+    height: 200px;
+}
+img.TV_on {
+    width: 200px;
+    height: 200px;
+}
+img.TV_off {
+    width: 200px;
+    height: 200px;
+}
+#btn1 {
+    width: 6rem;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 20px;
+    outline:none;
+    cursor: pointer;
+    background-color: blue;
+}
+#btn2 {
+
+    width: 6rem;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 20px;
+    outline:none;
+    cursor: pointer;
+    background-color: blue;
+}
+#btn3 {
+    width: 6rem;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 20px;
+    outline:none;
+    cursor: pointer;
+    background-color: blue;
+}
+#btn4 {
+
+    width: 6rem;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 20px;
+    outline:none;
+    cursor: pointer;
+    background-color: blue;
+}
+#btn5 {
+    width: 6rem;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 20px;
+    outline:none;
+    cursor: pointer;
+    background-color: blue;
+}
+#btn6 {
+
+    width: 6rem;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 20px;
+    outline:none;
+    cursor: pointer;
+    background-color: blue;
+}
+.footer
+{
+  
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 13px;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(48, 38, 38);
+}
