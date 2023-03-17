@@ -1,3 +1,6 @@
+
+
+// 
 var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
 var tabPanels=document.querySelectorAll(".tabContainer .tabPanelContainer .tabPanel");
 
@@ -22,11 +25,11 @@ let btn1 = document.querySelector('#btn1');
 let img = document.querySelector('#light');
 let btn2 = document.querySelector('#btn2');
 
-// functions nut bam
+// turn on --> Lights
 btn1.addEventListener('click', ()=>{   
     img.src = 'image/light_on.png';
 })
-
+// turn off --> Lights
 btn2.addEventListener('click', ()=>{
     img.src = 'image/light_off.png';
 })
@@ -36,11 +39,11 @@ let btn3 = document.querySelector('#btn3');
 let img2 = document.querySelector('#fan');
 let btn4 = document.querySelector('#btn4');
 
-// functions nut bam
+// turn on --> Fan
 btn3.addEventListener('click', ()=>{   
     img2.src = 'image/fan_on.png'; 
 })
-
+// turn off --> Fan
 btn4.addEventListener('click', ()=>{
     img2.src = 'image/fan_off.png';
 })
@@ -50,11 +53,13 @@ let btn5 = document.querySelector('#btn5');
 let img3 = document.querySelector('#TV');
 let btn6 = document.querySelector('#btn6');
 
-// functions nut bam
+// turn on --> camera
 btn5.addEventListener('click', ()=>{   
     img3.src = 'image/camera_on.png'; 
 })
-
+// turn off --> camera
 btn6.addEventListener('click', ()=>{
     img3.src = 'image/camera_off.png';
 })
+
+

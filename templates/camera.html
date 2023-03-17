@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SMART WAREHOUSE</title>
+     <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://kit.fontawesome.com/a46b7b6629.js" crossorigin="anonymous"></script>
+
+     <style>
+          body,html{
+               height:100%;
+               width: 100%;
+               margin:0;
+               background-position: center;
+               background-size: 100% 100%;
+               background-repeat: no-repeat;
+               background-color: #F5F5F5;
+          }
+
+     </style>
+</head>
+<body>
+     <div class="titleContainer">
+          <div class="logo">
+               <img src="{{url_for('static',filename='image/logo-removebg-preview.png')}}" alt="logo" width="175px" height="175px">
+          </div>
+          <div class="title">
+          smart warehouse
+          </div>
+     </div>
+     <div class="tabContainer">
+          <div class="buttonContainer">
+               <button class="option1" onclick="showPanel(0)"><a href="/home"><i class="far fa-building"></i>warehouse I</button>
+               <button class="option2"><a href="/chart"><i class="far fa-building"></i>Chart</a></button>
+               <button class="option3"><a href="/camera"><i class="far fa-building"></i>Camera</a></button>
+          </div>
+     </div>
+         <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <h3 class="mt-5">Live Streaming</h3>
+                <img src="{{ url_for('video_feed') }}" width="40%">
+            </div>
+        </div>
+    </div>
+     <footer>
+          <div class="container">
+               <div class="left section">
+                    <div class="hcmute-ute-logo">
+                         <img src="{{url_for('static',filename='image/ute_logo_c.png')}}" class="logo-bottom" width="100" height="100">
+                         <br>
+                         <span class="hcmute">HCMUTE</span>
+                    </div>
+
+                    <div class="hcmute-ute">
+                         <p>
+                              <br>
+                              TRƯỜNG ĐẠI HỌC <br>
+                              <span class="name">SƯ PHẠM KỸ THUẬT TP. HỒ CHÍ MINH</span>
+                              <hr class="hr-footer">
+                              HCMC University of Technology and Education
+                           </p>
+                    </div>
+              </div>
+              <div class="left section">
+                  <h2>About Us</h2>
+                  <div class="content">
+                      <p>
+                         Hoàng Minh Nhật - 19133042 <br>
+                         Đào Thị Cẩm Tiên - 19133055 <br>
+                         Bùi Thị Ngân Tuyền - 19133066
+                      </p>
+                      <a href="https://tuyensinh.hcmute.edu.vn" target="_blank" class="mr-right-10"><i
+                         class="fa-solid fa-globe"></i></a>
+                    <a href="https://www.facebook.com/nbee.nhat" target="_blank" class="mr-right-10"><i
+                         class="fa-brands fa-facebook-square"></i></a></span>
+                  </div>
+              </div>
+
+              <div class="center section">
+                  <h2>Contact Us</h2>
+                  <div class="content">
+                      <div class="place">
+                          <span class="fas fa-map-marker-alt"></span>
+                          <span class="text"> Phòng B.310, Khu B
+                          </span>
+                      </div>
+                      <div class="phone">
+                          <!-- <span class="fas fa-phone-alt"></span> -->
+                          <span class="fas fa-map-marker-alt"></span>
+                          <span class="text">01 Võ Văn Ngân, Linh Chiểu, Thủ Đức, TP.HCM</span>
+                      </div>
+                      <div class="email">
+                          <span class="fas fa-envelope"></span>
+                          <span class="text">19133042@student.hcmute.edu.vn</span>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+
+          <div class="footer-bottom">
+              <section>
+                  <div><span>Powered By <a href="https://multiwebpress.com">© 2022 | All Rights Reserved | Made By Group 17</a></span></div>
+              </section>
+          </div>
+      </footer>
+
+</html>

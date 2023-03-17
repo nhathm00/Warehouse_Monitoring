@@ -1,0 +1,24 @@
+# Flask Web 
+- pip install flask
+- pip install cmake
+- conda install -c conda-forge dlib
+- conda install -c menpo opencv
+- pip install face_recognition
+- pip uninstall black
+- pip uninstall click
+- pip install black
+- pip install click
+# Aduino IDE 2.0.2
+#		+ Additional Board Manager URLS: 
+#			https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
+#		+ CP2102 USB-to-Serial Bridge Driver : https://www.pololu.com/docs/0J7/all
+#		+ Add Board Manager : Tool -> Board -> Board Manager -> esp8266 community -> Select NodeMCU 1.0
+#		+ Library Manager : 
+#			DHT sensor library by adafruit
+#			Firebase Aduino Client Library For ESP8266 and ESP32 by Mobizt
+#			AduinoJson by Benoit Blanchon Version 6.19.4
+#			Time by Michael Margolis
+
+
+
+ 
